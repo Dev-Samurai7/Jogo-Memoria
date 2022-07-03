@@ -86,3 +86,35 @@ footer a{
    
 }
 
+/* Parte Mobile */
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 812px) {
+    main{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .card-front,
+    .card-back{
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        border-radius: 5px;
+        background-color: violet;
+        backface-visibility: hidden;   /* Propriedade que retira o verso da carta8*/
+    }
+    
+    .memory-game{
+        height: 400px;
+        width: 400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        perspective: 1000px;
+    }
+    
+
+
+  }
