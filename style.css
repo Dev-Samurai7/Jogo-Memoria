@@ -7,15 +7,22 @@
 }
 
 body{
-    background-color: aqua;
     font-family: 'Quicksand';
+    background-image: url("https://gifs.eco.br/wp-content/uploads/2022/05/gifs-de-super-mario-0.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+  
 
 }
 header{
     text-align: center;
-    color: black;
     margin: 2%;
     height: 10vh;
+    color: ;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 main{
@@ -58,7 +65,7 @@ main{
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background-color: violet;
+    /* background-color: violet; */
     backface-visibility: hidden;   /* Propriedade que retira o verso da carta8*/
 }
 
@@ -72,6 +79,8 @@ main{
     transform: rotateY(180deg);
 }
 
+
+
 footer {
     width: 100%;
     text-align: center;
@@ -82,7 +91,9 @@ footer {
 }
 footer a{
     margin: 2%;
+    font-size: 40px;
     color: black;
+    font-weight: bold;
    
 }
 
@@ -90,10 +101,21 @@ footer a{
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 812px) {
+
+    body{
+        background-image: url("https://gifs.eco.br/wp-content/uploads/2022/05/gifs-de-super-mario-0.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-transform: uppercase;
+    
+    }
+
     main{
         height: 80vh;
         width: 100%;
     }
+
 
     .card-front,
     .card-back{
@@ -102,7 +124,7 @@ footer a{
         padding: 20px;
         position: absolute;
         border-radius: 5px;
-        background-color: violet;
+        /* background-color: violet; */
         backface-visibility: hidden;   /* Propriedade que retira o verso da carta8*/
     }
     
@@ -114,6 +136,8 @@ footer a{
         flex-wrap: wrap;
         perspective: 1000px;
     }
+
+
     
 
 
