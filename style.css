@@ -46,6 +46,7 @@ main{
     width: calc(25% - 10px);
     margin: 5px;
     position: relative;
+    border: 10px solid white;
     box-shadow: 1px 1px 1px 1px  black solid;
     cursor: pointer;
     transform: scale(1);
