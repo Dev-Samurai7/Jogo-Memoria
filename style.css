@@ -46,7 +46,7 @@ main{
     width: calc(25% - 10px);
     margin: 5px;
     position: relative;
-    border: 10px solid white;
+    border: 5px solid white;
     box-shadow: 1px 1px 1px 1px  black solid;
     cursor: pointer;
     transform: scale(1);
@@ -65,7 +65,7 @@ main{
 .card-back{
     height: 100%;
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     position: absolute;
     border-radius: 5px;
     /* background-color: violet; */
@@ -128,7 +128,7 @@ footer a{
     .card-back{
         height: 100%;
         width: 90%;
-        padding: 20px;
+        padding: 3px;
         position: absolute;
         border-radius: 5px;
         /* background-color: violet; */
