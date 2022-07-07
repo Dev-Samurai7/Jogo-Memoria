@@ -13,7 +13,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
-  
+    height: 110%;
+    margin: 0
 
 }
 header{
@@ -40,12 +41,7 @@ h1{
 }
 
 
-/* main{
-    display: flex;
-    height: 80vh;
-    width: 90%;
-    margin: 2% auto;
-} */
+
 
 .memory-game{
     display: flex;
@@ -143,7 +139,7 @@ footer a{
 
     .div-logo{
         height: 10vh;
-        margin: 15%;
+        margin: 10%;
     
     }
 
